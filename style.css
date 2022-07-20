@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-size: 16px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    
+    font-family: 'Ubuntu';
+    background-color: rgba(250, 235, 215, 0.416);
+}
+
+.container p {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top:10px;
+}
+
+.number {
+    color: rgb(135, 134, 134);
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.nome {
+    font-size: 22px;
+}
+
+.plant, .poison {
+    font-size: 0.75rem ;
+    font-weight: 400;
+    margin: 0 2px;
+    border-radius: 10px;
+    padding: 4px 20px;
+    color: white;
+}
+
+.plant {
+    background-color: #9BCC50;
+    color: black;
+}
+
+.poison {
+    background-color: #B97FC9;
+}
