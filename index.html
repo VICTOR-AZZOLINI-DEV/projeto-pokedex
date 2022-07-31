@@ -11,21 +11,59 @@
     <header>
         <h1>Pokédex</h1>
     </header>
-    <article>
-        <div class="container">
-            <img class="poke" src="Pokedex - 806 Pokemons (Transparentes)/001.png" alt="Bulbassauro">
-            <p class="number">nº001</p>
-            <p class="nome"><strong>Bulbassauro</strong></p>
-            <p><span class="plant">Planta</span> <span class="poison">Venenoso</span></p>
+    <main>
+        <div class="pokemon-front-card">
+            <figure class="pokemon-image">
+                <img src="Pokedex - 806 Pokemons (Transparentes)/001.png" alt="Bulbassauro">
+            </figure>
+            <span class="id">#001</span>
+            <h2 class="pokemon-name">
+                Bulbassauro
+            </h2>
+            <div class="pokemon-types">
+                <span class="pokemon-type-grass">grass</span>
+                <span class="pokemon-type-poison">poison</span>
+            </div>
         </div>
-        <div class="container stats">
-            <h3>Tamanho pokemon</h3>
-            <ul class="peso-e-altura">
-                <li id="peso">6,9kg</li>
-                <li id="altura">0,7m</li>
-            </ul>
+        <div class="pokemon-back-card">
+            <h3 id="tamanho">Tamanho</h3>
+            <div class="pokemon-size">
+                <p>Altura</P>
+                <span class="pokemon-height">0.7 m</span>
+                <p>Peso</p>
+                <span class="pokemon-weight">6.9 kg</span>
+            </div>
+            <h3>Status</h3>
+            <div class="pokemon-stats">
+                <div>
+                    <p>HP</p>
+                    <span class="pokemon-hp">45</span>
+                </div>
+                <div>
+                    <p>Attack</p>
+                    <span class="pokemon-atk">49</span>
+                </div>
+                <div>
+                    <p>Defense</p>
+                    <span class="pokemon-df">65</span>
+                </div>
+                <div>
+                    <p>Speed</p>
+                    <span class="pokemon-sp">45</span>
+                </div>
+            </div>
+            <h3>Fraquezas</h3>
+            <div class="pokemon-weaknesses">
+                <span class="pokemon-type-fire">fire</span>
+                <span class="pokemon-type-psychic">psychic</span>
+                <span class="pokemon-type-flying">flying</span>
+                <span class="pokemon-type-ice">Ice</span>
+            </div>
+
+
         </div>
-    </article>
+        
+    </main>
     <footer>
 
     </footer>

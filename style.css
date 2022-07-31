@@ -2,7 +2,7 @@
 
 body {
     font-size: 16px;
-    
+    font-family: "Ubuntu", sans-serif;
 }
 
 h1{
@@ -14,74 +14,130 @@ header {
     border-bottom: 1px solid black;
 }
 
-.container {
+.pokemon-front-card {
     width: 300px;
-    height: 300px;
-    
-    font-family: 'Ubuntu';
-    background-color: rgba(250, 235, 215, 0.416);
+    height: 380px;
+    border: 1px solid black;
 }
 
-.container p {
-    text-align: center;
+.pokemon-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #F2F2F2 ;
 }
 
-img {
-    width: 150px;
-    display: block;
+.pokemon-image img {
+    width: 200px;
     margin: auto;
-    margin-top:10px;
 }
 
-.number {
-    color: rgb(135, 134, 134);
-    font-size: 0.9rem;
+.id {
+    color: rgba(47, 47, 47, 0.54);
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.pokemon-name {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+.pokemon-types {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-weight: 400;
+    
+}
+
+.pokemon-type-grass {
+    background-color: #9BCC50 ;
+    border-radius: 3px;
+    padding: 2px 20px 3px 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-type-poison {
+    background-color: #B97FC9 ;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 20px 3px 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-type-fire {
+    background-color: #FD7D24 ;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 20px 3px 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.pokemon-type-psychic {
+    background-color: #F366B9 ;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 20px 3px 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-type-flying {
+    background-image: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%  ) ;
+    border-radius: 3px;
+    padding: 2px 20px 3px 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-type-ice {
+    background-color: #51C4E7;
+    border-radius: 3px;
+    padding: 2px 20px 3px 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-back-card {
+    width: 300px;
+    height: 380px;
+    border: 1px solid black;
+}
+
+#tamanho {
+    margin-top: 35px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pokemon-size {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokemon-stats {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-stats p {
     font-weight: bolder;
 }
 
-.nome {
-    font-size: 22px;
-}
-
-.plant, .poison {
-    font-size: 0.75rem ;
-    font-weight: 400;
-    margin: 0 2px;
-    border-radius: 10px;
-    padding: 4px 20px;
-    color: white;
-}
-
-.plant {
-    background-color: #9BCC50;
-    color: black;
-}
-
-.poison {
-    background-color: #B97FC9;
-}
-
-#peso {
-    list-style-image: url("icones/balanca.png") ;
-    
-}
-
-#altura {
-    list-style-image: url("icones/altura.png");
-}
-
-.stats ul {
-    margin: ;
-
-}
-
-.stats ul li {
-    display: ;
-    position: relative;
-    margin: 0 30px;
-    align-items: center;
+.pokemon-weaknesses {
+    padding: 10px;
+    display: flex;
     justify-content: center;
-    
-    
+    flex-wrap: wrap;
+    column-gap: 10px;
 }
-
