@@ -12,6 +12,23 @@ h1{
 
 header {
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+
+main {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 100px 33px;
 }
 
 .pokemon-front-card {
